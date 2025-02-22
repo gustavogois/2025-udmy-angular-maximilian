@@ -1,61 +1,132 @@
 @startuml
 component app [
-  users = DUMMY_USERS;
-    selectedUserId = 'u1';
+  App Component
+
+    users = DUMMY_USERS;
+    selectedUserId?: string;
 
     get selectedUser() {
-        return this.users.find(user => user.id === this.selectedUserId)!;
-      }
+      return this.users.find(user => user.id === this.selectedUserId);
+    }
 
-      onSelectUser(id: string) {
-        this.selectedUserId = id;
-      }
+    onSelectUser(id: string) {
+      this.selectedUserId = id;
+    }
 ]
 
 note right of app
   App HTML
-  <ul id="users">
-      <li>
-        <app-user
-          (select)="onSelectUser($event)"
-          [avatar]="users[0].avatar"
-          [id]="users[0].id"
-          [name]="users[0].name"
-        />
-      </li>
-  ...
-  </ul>
-  <app-tasks [name]="selectedUser.name"/>
+
+  <app-header/>
+  <main>
+    <ul id="users">
+      @for (user of users; track user.id) {
+        <li>
+          <app-user
+            (select)="onSelectUser($event)"
+            [selected]="user.id === selectedUserId"
+            [user]="user"
+          />
+        </li>
+      }
+    </ul>
+
+    @if (selectedUser) {
+      <app-tasks [userId]="selectedUser.id" [name]="selectedUser.name"/>
+    } @else {
+      <p id="fallback">Select a user to see their tasks!</p>
+    }
+  </main>
 end note
 
 component user [
-  @Input() avatar: string;
-  @Input() id: string;
-  @Input() name: string;
-  @Output() select = new EventEmitter<string>();
+  user Component
+
+    @Input({required: true}) user!: User;
+    @Input({required: true}) selected!: boolean;
+    @Output() select = new EventEmitter<string>();
+
+    get imagePath() {
+      return 'assets/users/' + this.user.avatar;
+    }
+
+    onSelectUser() {
+      this.select.emit(this.user.id);
+    }
 ]
 
 note left of user
   User HTML
-  img [src]="avatar" [alt]="name"/>
-  <h2>{{ name }}</h2>
-  <button (click)="select.emit(id)">Select</button>
+
+  <div>
+    <button (click)="onSelectUser()" [class.active]="selected">
+      <img [alt]="user.name" [src]="imagePath"/>
+      <span>{{ user.name }}</span>
+    </button>
+  </div>
 end note
 
 component tasks [
-  @Input() name: string;
+  Tasks Component
+
+  @Input({required: true}) userId!: string;
+  @Input({required: true}) name!: string;
+  tasks = [ ... ];
+  get selectedUserTasks() {
+        return this.tasks.filter(task => task.userId === this.userId);
+    }
+
+    onCompleteTask(id: string) {
+        this.tasks = this.tasks.filter(task => task.id !== id);
+    }
 ]
 
 note right of tasks
   Tasks HTML
-  <h2>{{ name }}'s Tasks</h2>
-  <ul>
-    <li *ngFor="let task of tasks">
-      {{ task }}
-    </li>
-  </ul>
+
+  <section id="tasks">
+      <header>
+          <h2>{{ name }}'s Tasks</h2>
+          <menu>
+              <button>Add Task</button>
+          </menu>
+      </header>
+      <ul>
+          @for (task of selectedUserTasks; track task.id) {
+              <li>
+                  <app-task [task]="task" (complete)="onCompleteTask($event)"/>
+              </li>
+          }
+      </ul>
+  </section>
+
+end note
+
+component task [
+  Task Component
+
+  @Input({required: true}) task!: Task;
+  @Output() complete = new EventEmitter<string>();
+
+  onCompleteTask() {
+    this.complete.emit(this.task.id);
+]
+
+note left of task
+  Task HTML
+
+  <article>
+    <h2>{{ task.title }}</h2>
+    <time>{{ task.dueDate }}</time>
+    <p>{{ task.summary }}</p>
+    <p class="actions">
+      <button (click)="onCompleteTask()">Complete</button>
+    </p>
+  </article>
+
 end note
 
 [app] --> [user]
 [app] --> [tasks]
+[tasks] --> [task]
 @enduml
