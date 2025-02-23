@@ -16,8 +16,13 @@ export class NewTaskComponent {
   enteredTitle = '';
   enteredSummary = '';
   enteredDate = '';
+  protected readonly onsubmit = onsubmit;
 
   onCancel() {
     this.cancel.emit();
+  }
+
+  onSubmit() {
+
   }
 }
