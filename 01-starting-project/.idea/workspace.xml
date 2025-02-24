@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d887452b-dbee-42d3-a791-873feec4f09d" name="Changes" comment="projects/repo organization" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gustavogois&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gustavogois/2025-udmy-angular-maximilian.git&quot;,
+    &quot;accountId&quot;: &quot;6ff9804d-925f-40f9-b750-2e3c39870675&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2slCyPbkzpgTUImOo1fd5kDvvVY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/gustavogois/studies/2025/angular/udmy_maxymillian_2025/my_source/01-starting-project/src/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "ts.external.directory.path": "/Users/gustavogois/studies/2025/angular/udmy_maxymillian_2025/my_source/01-starting-project/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/tasks/task" />
+      <recent name="$PROJECT_DIR$/src/app/tasks" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/app/header" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d887452b-dbee-42d3-a791-873feec4f09d" name="Changes" comment="" />
+      <created>1739021027605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739021027605</updated>
+      <workItem from="1739021028655" duration="11530000" />
+      <workItem from="1739619318027" duration="40661000" />
+      <workItem from="1740248834056" duration="18941000" />
+    </task>
+    <task id="LOCAL-00001" summary="Seção 2 - Lesson 34 - Working with Outputs &amp; Emitting Data">
+      <option name="closed" value="true" />
+      <created>1739655722244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739655722244</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Seção 2 - Lesson 35 - Using the output() Function">
+      <option name="closed" value="true" />
+      <created>1739656315193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739656315193</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Seção 2 - Lesson 36 - Adding Extra Type Information to EventEmitter">
+      <option name="closed" value="true" />
+      <created>1739803436042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739803436043</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Seção 2 - Lesson 37 - Exercise: Create a Configurable Component (app-tasks)">
+      <option name="closed" value="true" />
+      <created>1739806101199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739806101199</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Activity Diagram">
+      <option name="closed" value="true" />
+      <created>1739815197434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739815197435</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Section 2- lesson 38 - Typescript: Working With Potentially Undefined Values &amp; Union Types">
+      <option name="closed" value="true" />
+      <created>1739979826595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739979826595</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Section 2- lesson 39 - Accepting Objects As Inputs &amp; Adding Appropriate Typings">
+      <option name="closed" value="true" />
+      <created>1739980288975</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980288975</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Section 2- lesson 40 - TypeScript: Type Aliases &amp; Interfaces">
+      <option name="closed" value="true" />
+      <created>1739980528539</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739980528539</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Section 2- lesson 41 - Outputting List Content">
+      <option name="closed" value="true" />
+      <created>1740049301137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740049301138</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Section 2- lesson 42 - Outputting Conditional Content">
+      <option name="closed" value="true" />
+      <created>1740049773590</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740049773590</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Section 2- lesson 43 - Legacy Angular: using ngFor &amp; ngIf">
+      <option name="closed" value="true" />
+      <created>1740050242487</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740050242487</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Section 2- lesson 44 - Adding More Components to the Demo App">
+      <option name="closed" value="true" />
+      <created>1740051519492</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740051519492</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Section 2- lesson 45 - Outputting User-specific Tasks">
+      <option name="closed" value="true" />
+      <created>1740054301690</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740054301690</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Section 2- lesson 46 - Outputting Task Data in the Task Component">
+      <option name="closed" value="true" />
+      <created>1740139200606</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740139200606</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Section 2- lesson 47 - Storing Data Models in Separate Files">
+      <option name="closed" value="true" />
+      <created>1740139670483</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740139670483</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Section 2- lesson 48 - Dynamic CSS Styling with Class Bindings">
+      <option name="closed" value="true" />
+      <created>1740140043116</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740140043116</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Section 2- lesson 49 - More component communication: Deleting Tasks">
+      <option name="closed" value="true" />
+      <created>1740159801243</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740159801243</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update diagram">
+      <option name="closed" value="true" />
+      <created>1740252548738</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740252548738</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Section 2- lesson 50 - Creating &amp; Conditionally Rendering Another Component">
+      <option name="closed" value="true" />
+      <created>1740253063465</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740253063465</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Section 2- lesson 50 - Creating &amp; Conditionally Rendering Another Component">
+      <option name="closed" value="true" />
+      <created>1740311575193</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1740311575193</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Section 2- lesson 51 - Managing the &quot;New Task&quot; Dialog">
+      <option name="closed" value="true" />
+      <created>1740312806257</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740312806257</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Section 2- lesson 52 - Using Directives &amp; Two-Way-Binding">
+      <option name="closed" value="true" />
+      <created>1740313464895</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740313464895</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Section 2- lesson 54 - Handling Form Submission">
+      <option name="closed" value="true" />
+      <created>1740313860538</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740313860538</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Section 2- lesson 55 - Using the Submitted Data">
+      <option name="closed" value="true" />
+      <created>1740314781325</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740314781325</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Section 2- lesson 56 - Content Projection with ng-content">
+      <option name="closed" value="true" />
+      <created>1740333128007</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740333128007</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Section 2- lesson 57 - Transforming Template Data with Pipes">
+      <option name="closed" value="true" />
+      <created>1740333363974</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740333363974</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Section 2- lesson 58 e 59 - Getting started with Services and Dependency Injection">
+      <option name="closed" value="true" />
+      <created>1740335021356</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1740335021357</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Section 2- lesson 60 - More service usage instead of Emitter">
+      <option name="closed" value="true" />
+      <created>1740336476673</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1740336476673</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Section 2- lesson 61 - More service usage instead of Emitter">
+      <option name="closed" value="true" />
+      <created>1740336879820</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1740336879820</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Section 2- lesson 62 - Using LocalStorage for Data Storage">
+      <option name="closed" value="true" />
+      <created>1740337349246</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1740337349246</updated>
+    </task>
+    <task id="LOCAL-00031" summary="projects/repo organization">
+      <option name="closed" value="true" />
+      <created>1740397419563</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1740397419563</updated>
+    </task>
+    <task id="LOCAL-00032" summary="projects/repo organization">
+      <option name="closed" value="true" />
+      <created>1740397545484</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1740397545484</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Section 2- lesson 38 - Typescript: Working With Potentially Undefined Values &amp; Union Types" />
+    <MESSAGE value="Section 2- lesson 39 - Accepting Objects As Inputs &amp; Adding Appropriate Typings" />
+    <MESSAGE value="Section 2- lesson 40 - TypeScript: Type Aliases &amp; Interfaces" />
+    <MESSAGE value="Section 2- lesson 41 - Outputting List Content" />
+    <MESSAGE value="Section 2- lesson 42 - Outputting Conditional Content" />
+    <MESSAGE value="Section 2- lesson 43 - Legacy Angular: using ngFor &amp; ngIf" />
+    <MESSAGE value="Section 2- lesson 44 - Adding More Components to the Demo App" />
+    <MESSAGE value="Section 2- lesson 45 - Outputting User-specific Tasks" />
+    <MESSAGE value="Section 2- lesson 46 - Outputting Task Data in the Task Component" />
+    <MESSAGE value="Section 2- lesson 47 - Storing Data Models in Separate Files" />
+    <MESSAGE value="Section 2- lesson 48 - Dynamic CSS Styling with Class Bindings" />
+    <MESSAGE value="Section 2- lesson 49 - More component communication: Deleting Tasks" />
+    <MESSAGE value="Update diagram" />
+    <MESSAGE value="Section 2- lesson 50 - Creating &amp; Conditionally Rendering Another Component" />
+    <MESSAGE value="Section 2- lesson 51 - Managing the &quot;New Task&quot; Dialog" />
+    <MESSAGE value="Section 2- lesson 52 - Using Directives &amp; Two-Way-Binding" />
+    <MESSAGE value="Section 2- lesson 54 - Handling Form Submission" />
+    <MESSAGE value="Section 2- lesson 55 - Using the Submitted Data" />
+    <MESSAGE value="Section 2- lesson 56 - Content Projection with ng-content" />
+    <MESSAGE value="Section 2- lesson 57 - Transforming Template Data with Pipes" />
+    <MESSAGE value="Section 2- lesson 58 e 59 - Getting started with Services and Dependency Injection" />
+    <MESSAGE value="Section 2- lesson 60 - More service usage instead of Emitter" />
+    <MESSAGE value="Section 2- lesson 61 - More service usage instead of Emitter" />
+    <MESSAGE value="Section 2- lesson 62 - Using LocalStorage for Data Storage" />
+    <MESSAGE value="projects/repo organization" />
+    <option name="LAST_COMMIT_MESSAGE" value="projects/repo organization" />
+  </component>
+</project>
